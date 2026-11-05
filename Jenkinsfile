@@ -18,7 +18,7 @@ pipeline {
         stage('Deploy Application') {
             steps {
                 sh 'docker rm -f aws-cicd-app || true'
-                sh 'docker run -d --name aws-cicd-app -p 8080:80 aws-cicd-app:latest'
+                sh 'docker run -d --name aws-cicd-app -p 8082:80 aws-cicd-app:latest'
             }
         }
     }
