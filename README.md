@@ -70,16 +70,15 @@ flowchart TD
 - SSH-based remote deployment.
 - Deployment failure handling and rollback.
 
-## Author
-Shubham Asalkar
 
 ## Project Repository
 https://github.com/shubhamasalkar02/aws-cicd-jenkins-pipeline.git
 
+
 ## Project Screenshots
 
 ### 1. Jenkins Pipeline Success
-![Jenkins Pipeline](<project%20screenshots/jenkins-pipeline-success.png>)
+![Jenkins Pipeline](<project%20screenshots/jenkins-pipeline-success-1.png>)
 
 ### 2. Jenkins Pipeline Success
 ![Jenkins Pipeline](<project%20screenshots/jenkins-pipeline-success.png>)
