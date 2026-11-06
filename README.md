@@ -79,13 +79,14 @@ https://github.com/shubhamasalkar02/aws-cicd-jenkins-pipeline.git
 ## Project Screenshots
 
 ### 1. Jenkins Pipeline Success
-![Jenkins Pipeline](project-screenshots/jenkins-pipeline-success.png)
+![Jenkins Pipeline](<project%20screenshots/jenkins-pipeline-success.png>)
 
-### 2. AWS EC2 Deployment
-![AWS EC2](project-screenshots/aws-ec2-deployment.png)
+### 2. Jenkins Pipeline Success
+![Jenkins Pipeline](<project%20screenshots/jenkins-pipeline-success.png>)
 
-### 3. Automatic Rollback
-![Rollback Success](project-screenshots/rollback-success.png)
+### 3. AWS EC2 Deployment
+![AWS EC2](<project%20screenshots/aws-ec2-deployment.png>)
 
-### 4. Project Architecture
-![Architecture](project-screenshots/project-architecture.png)
+### 4. Automatic Rollback
+![Rollback Success](<project%20screenshots/rollback-success.png>)
+
