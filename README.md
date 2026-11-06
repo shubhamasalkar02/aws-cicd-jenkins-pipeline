@@ -9,7 +9,22 @@ If the new deployment fails its health check, the pipeline attempts to restore t
 
 ## Architecture
 
-GitHub → GitHub Webhook → Jenkins → Docker Build → AWS EC2 → Application
+
+flowchart TD
+    A[Developer] --> B[GitHub Repository]
+    B --> C[GitHub Webhook]
+    C --> D[Jenkins Pipeline]
+    D --> E[Checkout Source Code]
+    E --> F[Build Docker Image]
+    F --> G[Deploy Locally]
+    F --> H[Save Docker Image]
+    H --> I[SCP Transfer to AWS EC2]
+    I --> J[Docker Load and Deploy]
+    J --> K{Health Check}
+    K -->|Success| L[Application Running]
+    K -->|Failure| M[Rollback to Previous Image]
+    M --> L
+
 
 ## Technologies Used
 - AWS EC2
