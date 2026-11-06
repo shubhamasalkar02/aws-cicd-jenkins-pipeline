@@ -9,7 +9,7 @@ If the new deployment fails its health check, the pipeline attempts to restore t
 
 ## Architecture
 
-
+```mermaid
 flowchart TD
     A[Developer] --> B[GitHub Repository]
     B --> C[GitHub Webhook]
