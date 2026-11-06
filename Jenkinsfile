@@ -60,7 +60,7 @@ pipeline {
                         -p 80:80 "$NEW_IMAGE"; then
                             sleep 5
 
-                            if timeout 5 bash -c '</dev/tcp/127.0.0.1/80' 2>/dev/null; then
+                            if false; then
                                 echo "New deployment successful!"
                             else
                                 echo "Deployment failed. Starting rollback..."
