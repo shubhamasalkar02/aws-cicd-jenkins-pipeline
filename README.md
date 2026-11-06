@@ -24,7 +24,7 @@ flowchart TD
     K -->|Success| L[Application Running]
     K -->|Failure| M[Rollback to Previous Image]
     M --> L
-
+```
 
 ## Technologies Used
 - AWS EC2
