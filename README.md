@@ -31,6 +31,7 @@ flowchart TD
 - Ubuntu Linux
 - Jenkins
 - Git & GitHub
+- Github webhook
 - Docker
 - Shell Scripting
 - SSH
@@ -63,13 +64,18 @@ flowchart TD
 - Automatic rollback verified through Jenkins Console Output.
 
 ## Learning Outcomes
-- CI/CD pipeline implementation.
-- Jenkins pipeline scripting.
-- Docker image management.
-- AWS EC2 deployment.
-- SSH-based remote deployment.
-- Deployment failure handling and rollback.
 
+Through this project, I gained practical experience in:
+
+- Implementing a Jenkins CI/CD pipeline.
+- Integrating GitHub with Jenkins.
+- Writing and understanding a Jenkinsfile.
+- Building and managing Docker images.
+- Deploying applications on AWS EC2.
+- Using SSH and SCP for remote deployment.
+- Handling deployment failures.
+- Implementing a basic rollback mechanism.
+- Troubleshooting CI/CD pipeline issues.
 
 ## Project Repository
 https://github.com/shubhamasalkar02/aws-cicd-jenkins-pipeline.git
